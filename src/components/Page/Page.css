@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}

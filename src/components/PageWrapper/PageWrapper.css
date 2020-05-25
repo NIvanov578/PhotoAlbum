@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0;
+  }
+}

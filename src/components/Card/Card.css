@@ -1,0 +1,45 @@
+.card {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #ddd9d9;
+  border-radius: 10px;
+  transition: 0.3s;
+  color: black;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  min-height: 150px;
+  min-width: 150px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card:hover {
+  transform: scale(1.25, 1.25);
+  box-shadow: 2px 2px #ddd9d9;
+  z-index: 9999;
+  color: #fff;
+  background-color: #000;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.cell {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button {
+  position: relative;
+  bottom: 95px;
+}
